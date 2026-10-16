@@ -90,16 +90,6 @@ Python · Google Colab · `polars` / `pyarrow` · `pandas` · `nltk` · `emoji` 
 ```
 bitcoin-tweets-nlp/
 ├── README.md
-├── bitcoin_tweets_nlp.ipynb
-├── outputs/
-│   ├── q1_topic_assignments.csv      (if under 100 MB, otherwise link to Drive)
-│   ├── q2_daily_sentiment.csv
-│   └── q2_backtest_results.csv
-├── validation/
-│   └── validation_labelled.csv
-└── images/
-    ├── coherence_by_k.png
-    ├── topic_share_over_time.png
-    ├── wordcloud.png
-    └── sentiment_vs_volatility.png
+├── NLP.ipynb
+
 ```
