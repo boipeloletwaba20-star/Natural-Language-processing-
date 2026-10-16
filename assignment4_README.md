@@ -2,7 +2,7 @@
 
 **What does Bitcoin Twitter talk about, and does its mood predict how volatile Bitcoin will be tomorrow?**
 
-*EDAB 6808 Assignment 4 · B.Com Business Analytics (Hons), University of the Free State · Pair project, 2026*
+
 
 ---
 
@@ -78,10 +78,10 @@ Python · Google Colab · `polars` / `pyarrow` · `pandas` · `nltk` · `emoji` 
 - Against the human labels, CryptoBERT scored **48.3%** and VADER **40.0%**. CryptoBERT was much better on bearish tweets (recall 0.72 versus 0.44).
 - No model beats a coin flip at predicting the direction of volatility.
 
-![Topic coherence by number of topics](images/coherence_by_k.png)
+
 
 ## How to run
-1. Open the notebook in Google Colab with a **GPU runtime**: [Open in Colab](COLAB_LINK_HERE)
+1. Open the notebook in Google Colab with a **GPU runtime**: [Open in Colab]([COLAB_LINK_HERE]:(https://colab.research.google.com/drive/1WJXO5L_IOXaCjFq4-Tni5HLMkysd_VLm?usp=sharing))
 2. **Runtime → Run all.** The first cell installs the packages, and the dataset downloads with `kagglehub`, which needs a Kaggle account and API token configured in Colab.
 3. Outputs are written to the working folder: `q1_topic_assignments.csv`, `q2_tweet_sentiment.csv`, `q2_daily_sentiment.csv`, `q2_modelling_table.csv` and `q2_backtest_results.csv`.
 4. **To correct the dates**, subtract four years from the daily index before merging with prices.
@@ -103,15 +103,3 @@ bitcoin-tweets-nlp/
     ├── wordcloud.png
     └── sentiment_vs_volatility.png
 ```
-
-## Report and presentation
-- [Full report](REPORT_LINK_HERE) (view-only)
-- [Presentation slides](SLIDES_LINK_HERE) (view-only)
-- [Portfolio page](EPORTFOLIO_LINK_HERE)
-
-## References
-- Corsi, F. (2009). A simple approximate long-memory model of realized volatility. *Journal of Financial Econometrics, 7*(2), 174–196.
-- Garman, M. B., & Klass, M. J. (1980). On the estimation of security price volatilities from historical data. *The Journal of Business, 53*(1), 67–78.
-- Grootendorst, M. (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. *arXiv:2203.05794*.
-- Hutto, C. J., & Gilbert, E. (2014). VADER: A parsimonious rule-based model for sentiment analysis of social media text. *Proceedings of ICWSM-14*.
-- Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics, 33*(1), 159–174.
