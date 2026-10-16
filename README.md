@@ -90,7 +90,7 @@ Python · Google Colab · `polars` / `pyarrow` · `pandas` · `nltk` · `emoji` 
 ```
 bitcoin-tweets-nlp/
 ├── README.md
-├── NLP.ipynb/nlp.py
+├── NLP(1).ipynb/nlp.py
 
 
 
